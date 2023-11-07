@@ -37,7 +37,10 @@ The align method returns the aligned sequences and the alignment score.
 
 ## Here's an explanation of each function in the NeedlemanWunsch class:
 
-### __init__(self, seq1, seq2, match_score=1, mismatch_score=-1, gap_penalty=-1)
+### 
+```python
+__init__(self, seq1, seq2, match_score=1, mismatch_score=-1, gap_penalty=-1)
+```
 This is the class constructor, which initializes the NeedlemanWunsch object with the input sequences seq1 and seq2, as well as optional parameters for match score, mismatch score, and gap penalty.
 
 ### initialize_matrix(self)
