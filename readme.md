@@ -1,4 +1,5 @@
-# Needleman-Wunsch Algorithm (RESEARCH PAPER LINK)[A%20general%20method%20applicable%20to%20the%20search%20for%20similarities%20in%20the%20amino%20acid%20sequence%20of%20two%20proteins.pdf]
+# Needleman-Wunsch Algorithm 
+## (RESEARCH PAPER LINK)[]
 This is a Python implementation of the Needleman-Wunsch algorithm, which is used for global sequence alignment. The algorithm finds the optimal alignment between two sequences, taking into account match scores, mismatch scores, and gap penalties. The code also includes a sequence generator and a function to save test cases for benchmarking.
 
 Usage
