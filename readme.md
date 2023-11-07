@@ -43,17 +43,29 @@ __init__(self, seq1, seq2, match_score=1, mismatch_score=-1, gap_penalty=-1)
 ```
 This is the class constructor, which initializes the NeedlemanWunsch object with the input sequences seq1 and seq2, as well as optional parameters for match score, mismatch score, and gap penalty.
 
-### initialize_matrix(self)
+### 
+```python
+initialize_matrix(self)
+```
 This method initializes the dynamic programming matrix used in the Needleman-Wunsch algorithm. The matrix is a 2D array with dimensions (len(seq1) + 1) x (len(seq2) + 1). It sets the values in the first row and first column based on gap penalties.
 
-### fill_matrix(self, matrix)
+### 
+```python
+fill_matrix(self, matrix)
+```
 This function fills in the dynamic programming matrix based on the alignment scores for the given sequences. It iterates through the matrix, calculating scores for each cell based on match, mismatch, and gap penalties.
 
-### traceback(self, matrix)
+### 
+```python
+traceback(self, matrix)
+```
 The traceback function reconstructs the optimal alignment by backtracking through the filled matrix. Starting from the bottom-right corner of the matrix, it follows the path with the highest alignment score and records the characters for the aligned sequences.
 
 
-### align(self)
+### 
+```python
+align(self)
+```
 The align method orchestrates the entire sequence alignment process. It calls initialize_matrix to create the dynamic programming matrix, then fill_matrix to populate it, and finally, traceback to find the optimal alignment. It returns the aligned sequences and their alignment score.
 
 
