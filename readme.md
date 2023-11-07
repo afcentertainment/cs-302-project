@@ -1,4 +1,4 @@
-# Needleman-Wunsch Algorithm
+# Needleman-Wunsch Algorithm (paper link)[]
 This is a Python implementation of the Needleman-Wunsch algorithm, which is used for global sequence alignment. The algorithm finds the optimal alignment between two sequences, taking into account match scores, mismatch scores, and gap penalties. The code also includes a sequence generator and a function to save test cases for benchmarking.
 
 Usage
