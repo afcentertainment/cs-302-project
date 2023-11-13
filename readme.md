@@ -108,3 +108,4 @@ if __name__ == "__main__":
 command: python filename.py
 
 This will test the Needleman-Wunsch algorithm with sequences of different lengths and provide alignment results and execution times.
+![image](https://github.com/afcentertainment/cs-302-project/assets/145244881/89108ab9-379b-40e5-9354-67374b72af33)
